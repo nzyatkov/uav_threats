@@ -1,0 +1,2 @@
+F=['n_blobs' 'area_med' 'area_p90' 'elong_med' 'vert_med' 'res_energy'
+ 'persist' 'grad' 'contrast' 'mean' 'Tw']

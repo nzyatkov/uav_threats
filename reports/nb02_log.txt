@@ -1,0 +1,50 @@
+
+##### CELL 1
+
+##### CELL 3
+[!] IEM недоступен (ConnectionError: HTTPSConnectionPool(host='mesonet.agron.iastate.edu', port=443): Max retries exceeded with url: /cgi-bin/request/asos.py?station=EDDF&data=tmpc&data=dwpc&data=relh&data=sknt&data=gust&data=vsby&data=wxcodes&year1=2017&month1=1&day1=1&year2=2018&month2=1&day2=1&tz=Etc%2FUTC&format=onlycomma&latlon=no&missing=M&trace=T&direct=no&report_type=3&report_type=4 (Caused by NameResolutionError("HTTPSConnection(host='mesonet.agron.iastate.edu', port=443): Failed to resolve 'mesonet.agron.iastate.edu' ([Errno -2] Name or service not known)"))). Использую СИНТЕТИЧЕСКИЙ запасной ряд.
+Источник данных: SYNTHETIC_FALLBACK | строк: 245376
+!!! РЕЗУЛЬТАТЫ НИЖЕ НЕ ОТНОСЯТСЯ К РЕАЛЬНОЙ ПОГОДЕ !!!
+label
+dry        200614
+rain        30101
+snow         5933
+fog          8205
+aerosol         0
+hail_ts       511
+
+##### CELL 4
+
+##### CELL 6
+train 210324, test 35040 (год 2023)
+
+##### CELL 8
+признаки              +vis  onboard    raw
+модель                                    
+hgb                  0.753    0.487  0.486
+logreg               0.679    0.438  0.438
+rule (пороги Tw/RH)    NaN    0.481    NaN
+
+##### CELL 9
+              precision    recall  f1-score   support
+
+         dry       0.99      0.83      0.90     28763
+        rain       0.41      0.49      0.45      4216
+        snow       0.35      0.95      0.52       810
+         fog       0.40      0.81      0.54      1170
+     hail_ts       0.02      0.32      0.04        81
+
+    accuracy                           0.79     35040
+   macro avg       0.43      0.68      0.49     35040
+weighted avg       0.88      0.79      0.82     35040
+
+
+##### CELL 11
+тест-станция   EDDF   EDDM   EDDH  EDDB
+macro-F1      0.482  0.487  0.485  0.48
+
+##### CELL 13
+
+##### CELL 15
+
+##### CELL 17
